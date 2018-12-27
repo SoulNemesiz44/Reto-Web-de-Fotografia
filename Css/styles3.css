@@ -1,0 +1,231 @@
+#Cabecera{
+	background-color: #5b7998;
+	padding: 2vh 2vw;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+}
+@font-face {
+font-family: "DancingScript-Regular";
+src: url(DancingScript-Regular.otf);
+}
+html{
+	font-family: "DancingScript-Regular";
+	background-color: #02010a;
+}
+section [id*="Ti"]{
+	max-height: 200px;
+	flex: 1 2 50%;
+}
+#Ti1{
+	order:1;
+}
+#Ti2{
+	order:2;
+}
+.i3{
+	text-decoration: overline;
+	color: black;
+}
+#Cabecera{
+	display: flex;
+	flex-flow: row wrap;
+}
+h1, #Ti1{
+	color: white;
+	text-align: left;
+	text-shadow: 2px 2px #02010a;
+	font-size: 35px;
+}
+h1, #Ti2{
+	text-shadow: none;
+	text-align: right;
+}
+a{
+	color: white;
+	font-size: 30px;
+}
+a:hover{
+	color: red;	
+}
+div [class*="Bloque"]{
+	max-height: 300px;
+	flex: 1 2 33%;
+}
+.Bloque1{
+	order: 1;
+	position: center;
+}
+.Bloque1 img{
+	-webkit-filter: blur(10px);
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+.Bloque2{
+	order: 2;
+	position: center;
+}
+.Bloque2 img{
+	-webkit-filter: grayscale(100%);
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+.Bloque3{
+	order: 3;
+	position: center;
+}
+.Bloque3 img{
+	-webkit-filter: Sepia(90%);
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+.Galeria1{
+	display: flex;
+	flex-flow: row wrap;
+	background: #d5c75f;
+}
+div [class*="BOX"]{
+	max-height: 300px;
+	flex: 1 2 33%;
+}
+.BOXI{
+	order: 1;
+	position: center;
+}
+.BOXI img{
+	-webkit-filter: grayscale(100%);
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+.BOXII{
+	order: 2;
+	position: center;
+}
+.BOXII img{
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+.BOXIII{
+	order: 3;
+	position: center;
+}
+.BOXIII img{
+	-webkit-filter: grayscale(100%);
+	display: block;
+	margin: auto;
+	padding: 20px;
+	width: 300px;
+	height: 200px;
+}
+.Galeria2{
+	display: flex;
+	flex-flow: row wrap;
+	background: #d5c75f;
+}
+/*Footer*/
+
+div [class*="Caja"]{
+	min-height: 200px;
+	flex: 1 2 25%;
+}
+.Caja1{
+	order: 1;
+	width: 24.8%;
+	text-align: left;
+	color: rgb(255, 153, 0);
+}
+.Caja1 h1{
+	text-align: left;
+	color: black;
+}
+.Caja2{
+	order: 2;
+	width: 24.8%;
+	text-align: left;
+	color: rgb(0, 102, 255);
+}
+.Caja2 h1{
+	text-align: left;
+	color: black;
+}
+.Caja3{
+	order: 3;
+	width: 24.8%;
+	text-align: left;
+}
+.Caja3 h1{
+	text-align: left;
+	color: black;
+}
+.icon-Facebook{
+	color: rgb(0, 0, 204);
+}
+.icon-Insta{
+	color: rgb(255, 0, 102);
+}
+.icon-Twitter{
+	color: rgb(0, 153, 255);
+}
+.Caja3 a:hover{
+	color: green;
+}
+.Caja4{
+	order:4;
+	width: 24.8%;
+	text-align: left;
+	color: rgb(255, 51, 51);
+}
+.Caja4 h1{
+	text-align: left;
+	color: black;
+}
+.PieDePagina{
+	background: #C6d5c5;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+}
+@media all and (max-width: 700px){
+	section [id*="Ti"]{
+	max-height: 500px;
+	flex: 1 2 100%;
+}
+    #Ti1{
+    	width: 100%;
+		text-align: center;
+		order:1;
+	}
+	#Ti2{
+		width: 100%;
+		text-align: center;
+		order: 2;
+	}
+	
+
+	/*SECCION DE CONTACTO*/
+	div [class*="Caja"]{
+	min-height: 200px;
+	flex: 1 2 100%;
+}
+.PieDePagina{
+	height: 100%;
+}
+}
